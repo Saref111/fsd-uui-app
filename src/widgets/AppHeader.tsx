@@ -1,5 +1,5 @@
 import * as React from "react";
-import logo from "./icons/logo.svg";
+import logo from "shared/icons/logo.svg";
 import { MainMenu, MainMenuButton } from "@epam/promo";
 
 export const AppHeader = () => {

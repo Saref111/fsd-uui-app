@@ -1,6 +1,6 @@
 import React from 'react';
 import { Panel, RichTextView, IconContainer } from '@epam/promo';
-import { ReactComponent as UuiPromoImage } from '../icons/uui-promo-image.svg';
+import { ReactComponent as UuiPromoImage } from 'shared/icons/uui-promo-image.svg';
 import css from './MainPage.module.scss';
 
 export const MainPage = () => {

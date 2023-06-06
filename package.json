@@ -7,6 +7,7 @@
     "@epam/promo": "^5.0.0",
     "@epam/uui-components": "^5.0.0",
     "@epam/uui-core": "^5.0.0",
+    "compose-function": "^3.0.3",
     "history": "^4.10.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -42,6 +43,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
+    "@types/compose-function": "^0.0.30",
     "@types/history": "^4.7.11",
     "@types/jest": "^25.2.3",
     "@types/node": "^16.18.4",
