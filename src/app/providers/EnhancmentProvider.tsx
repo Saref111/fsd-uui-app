@@ -7,12 +7,9 @@ import { Router } from "react-router-dom";
 
 const history = createBrowserHistory();
 
-
 export const UuiEnhancedProvider = ({children}: PropsWithChildren) => {
     const router = new HistoryAdaptedRouter(history);
 
-    // !!!
-    // eslint-disable-next-line react-hooks/rules-of-hooks
     const { services } = useUuiServices({
         apiDefinition: (processRequest) => Promise.resolve({}),
         router,

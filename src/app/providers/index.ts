@@ -1,1 +1,1 @@
-export { UuiEnhancedProvider } from "./with-enhancment";
+export { UuiEnhancedProvider } from "./EnhancmentProvider";
